@@ -3,7 +3,7 @@
 const SimpleForm = () => {
     const handleSubmit = e =>{
         e.preventDefault(); //it prevents default behavior of form tag, like reloading after submit
-        console.log('***Data get from Simple Form***\n\nName: ', e.target.name.value,`\nEmail: `, e.target.email.value, '\nPassword: ',e.target.password.value);
+        console.log('***Data get from Simple Form***\n\nName: ', e.target.name.value,`\nEmail: `, e.target.email.value, '\nPassword: ',e.target.password.value,`\n\n`);
     }
     return (
         <div style={{border:'2px solid yellow', borderRadius:'10px', padding:'20px'}}>

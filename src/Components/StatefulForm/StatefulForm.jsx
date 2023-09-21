@@ -14,7 +14,7 @@ const StatefulForm = () => {
             setError(`Password must be greater than 6 characters or more`)
         }else{
             setError('')
-            console.log('***Data get from Stateful Form***\n\nName: ', name ,`\nEmail: `, email, '\nPassword: ',password);
+            console.log('***Data get from Stateful Form***\n\nName: ', name ,`\nEmail: `, email, '\nPassword: ',password,`\n\n`);
             setSubmit('submited')
         }
     }
